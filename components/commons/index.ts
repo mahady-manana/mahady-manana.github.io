@@ -1,2 +1,2 @@
 export * from './Headers';
-export * from './Theme/theme';
+export * from './Theme';

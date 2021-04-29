@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Headers } from '../components/commons';
 import { CustomHead, NormalContainer } from '../components/utils';
 import { useStyles } from '../styles/style';
 
@@ -28,6 +29,7 @@ export default function Home() {
           descriptionContent="Description content"
         />
       </div>
+      <Headers/>
       <main>
         <NormalContainer className={classes.root}>
           <div>
