@@ -14,4 +14,17 @@ a {
 
 * {
   box-sizing: border-box;
+  white-space: normal;
+}
+.main-content {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+}
+h1 {
+  font-size: 30;
+}
+h2 {
+  font-size: 26;
 }

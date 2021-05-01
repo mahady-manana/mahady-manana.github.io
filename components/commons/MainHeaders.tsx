@@ -11,18 +11,18 @@ export default function MainHeaders({ title, description }) {
   return (
     <>
       <HeadTags title={title} description={description} />
-      <header className="header" id="main-header">
+      <header className={classes.mainHeader} id="main-header">
         <CustomContainer normal>
           <Grid
             container
             justify="space-between"
-            className={classes.customContainer}
+            className={classes.mobile}
           >
-            <Grid item>
+            <Grid item className={classes.logoGrid}>
               <Link href="/">
                 <a>
                   <Typography
-                    component="h1"
+                    variant="h1"
                     className={classes.logoTitle}
                   >
                     Mahady Manana
@@ -36,7 +36,7 @@ export default function MainHeaders({ title, description }) {
                 </a>
               </Link>
             </Grid>
-            <Grid item style={{ width: '65%' }}>
+            <Grid item className={classes.gridRight}>
               <TopRight />
             </Grid>
           </Grid>

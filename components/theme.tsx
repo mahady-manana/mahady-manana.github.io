@@ -16,3 +16,7 @@ export const theme = createMuiTheme({
     },
   },
 });
+
+theme.typography.h2 = {
+  fontSize: 30,
+};
