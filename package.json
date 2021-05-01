@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build:export": "next build && next export",
+    "deploy": "yarn build:export && yarn git",
+    "git": "touch out/.nojekyll && git add . && git commit -m 'deploy site' && yarn force-subtree",
+    "force-subtree": "git push origin `git subtree split --prefix out static-site`:static-site --force"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",

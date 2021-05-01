@@ -1,1 +1,0 @@
-export { CustomHead } from './CustomHead';
