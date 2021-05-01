@@ -1,12 +1,13 @@
-import { Typography } from '@material-ui/core';
 import { Slider, SliderItem } from '@sitym/future-slider';
 import { useStyles } from './style';
 import { Presentation } from './SlideItem1';
 import { ListSkills } from './ListSkills';
+import { PresentationSitym } from './SliderItem2Sitym';
+import { SitymProject } from './SitymProject';
 export const CustomSlider = () => {
   const classes = useStyles();
   return (
-    <Slider height="100vh">
+    <Slider height="100%">
       <SliderItem className={classes.slider1} content="center">
         <div>
           <Presentation />
@@ -17,10 +18,8 @@ export const CustomSlider = () => {
       </SliderItem>
       <SliderItem className={classes.slider2} content="center">
         <div>
-          <Typography variant="h2">SiTYM</Typography>
-          <Typography variant="h4">
-            Expore my open source project
-          </Typography>
+          <PresentationSitym />
+          <SitymProject />
         </div>
       </SliderItem>
     </Slider>

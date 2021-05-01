@@ -10,7 +10,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 
-const useStyles = makeStyles((_theme: Theme) =>
+const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       width: '100%',
@@ -26,6 +26,15 @@ const useStyles = makeStyles((_theme: Theme) =>
         '& *': {
           color: '#fff',
           textAlign: 'center',
+        },
+      },
+      [theme.breakpoints.down('sm')]: {
+        '& .MuiListItemText-root': {
+          display: 'none',
+        },
+        '& .MuiListItem-root': {
+          width: 80,
+          verticalAlign: 'top',
         },
       },
     },

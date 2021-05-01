@@ -28,7 +28,7 @@ export const useStyles = makeStyles((theme: Theme) =>
     },
     listRoot: {
       [theme.breakpoints.down('sm')]: {
-        justifyContent: 'center',
+        display: 'none',
       },
       justifyContent: 'flex-end',
       display: 'flex',

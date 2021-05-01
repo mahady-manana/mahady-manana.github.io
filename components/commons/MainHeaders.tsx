@@ -5,6 +5,7 @@ import HeadTags from './head';
 import { useStyles } from './style';
 import Link from 'next/link';
 import { TopRight } from './topRight';
+import { MobileMenu } from './MenuMobile';
 
 export default function MainHeaders({ title, description }) {
   const classes = useStyles();
@@ -38,6 +39,7 @@ export default function MainHeaders({ title, description }) {
             </Grid>
             <Grid item className={classes.gridRight}>
               <TopRight />
+              <MobileMenu />
             </Grid>
           </Grid>
         </CustomContainer>
