@@ -33,9 +33,13 @@ export const PresentationSitym = () => {
       <Card className={classes.root} elevation={0}>
         <div className={classes.details}>
           <div style={{ textAlign: 'center' }}>
-            <Typography variant="h2">SiTYM</Typography>
+            <Typography variant="h2" color="primary">
+              SiTYM
+            </Typography>
             <div>********</div>
-            <Typography variant="h4">Open Source Project</Typography>
+            <Typography variant="h4" color="primary">
+              Open Source Project
+            </Typography>
             <div>********</div>
             <p>
               SiTYM is an Open Source Project for modern web

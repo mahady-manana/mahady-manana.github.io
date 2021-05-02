@@ -1,5 +1,8 @@
 import MainHeaders from '../components/commons/MainHeaders';
-import { CustomSlider } from '../components/main';
+import {
+  CustomSlider,
+  Presentation,
+} from '../components/main/homepage';
 
 export default function Home() {
   return (
@@ -11,6 +14,9 @@ export default function Home() {
       <main className="main-content">
         <div>
           <CustomSlider />
+        </div>
+        <div>
+          <Presentation />
         </div>
       </main>
     </>

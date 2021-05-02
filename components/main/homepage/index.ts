@@ -1,1 +1,2 @@
-export { CustomSlider } from './Slider';
+export * from './CustomSlider';
+export * from './Presentation';

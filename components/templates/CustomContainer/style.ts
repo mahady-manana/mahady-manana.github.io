@@ -18,5 +18,14 @@ export const useStyles = makeStyles((theme: Theme) =>
     container: {
       width: '100%',
     },
+    spacing2: {
+      margin: '30px 0',
+    },
+    spacing1: {
+      margin: '15px 0',
+    },
+    spacing3: {
+      margin: '50px 0',
+    },
   }),
 );
