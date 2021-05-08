@@ -9,11 +9,7 @@ import { useStyles } from "./style";
 export const TopRight = () => {
 	const classes = useStyles();
 	return (
-		<List
-			component='div'
-			style={{ display: "flex" }}
-			className={classes.listRoot}
-		>
+		<List component='div' className={classes.listRoot}>
 			<Link href='#'>
 				<ListItem component='div' className={classes.listItemMenu}>
 					<ListItemIcon>

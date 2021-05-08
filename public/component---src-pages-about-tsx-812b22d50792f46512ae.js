@@ -1,0 +1,2 @@
+(self.webpackChunkdashbord_app=self.webpackChunkdashbord_app||[]).push([[49],{564:function(e,r,n){"use strict";n.r(r),n.d(r,{default:function(){return u}});var t=n(453),a=n(7294);function u(){return a.createElement("div",null,a.createElement(t.Z,{color:"primary"},"Testy"))}}}]);
+//# sourceMappingURL=component---src-pages-about-tsx-812b22d50792f46512ae.js.map
