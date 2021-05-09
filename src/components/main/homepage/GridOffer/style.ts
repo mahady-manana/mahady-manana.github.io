@@ -15,5 +15,10 @@ export const useStyles = makeStyles((_theme: Theme) =>
       textAlign: 'center',
       background: 'transparent',
     },
+    servicesh4: {
+      fontSize: 16,
+      textAlign: 'center',
+      margin: '20px 0',
+    },
   }),
 );

@@ -29,7 +29,18 @@ export const GridOffer = () => {
           </span>
         </Typography>
       </Box>
-      <Box>Get to know why you need me</Box>
+      <Box>
+        <Typography variant="h4" className={classes.servicesh4}>
+          FIND OUT MY SERVICES FOR YOU
+        </Typography>
+        <Typography
+          variant="h4"
+          color="primary"
+          className={classes.servicesh4}
+        >
+          ALL in JS
+        </Typography>
+      </Box>
       <Box>
         <Grid container spacing={3}>
           <Grid item sm={4} xs={12}>
