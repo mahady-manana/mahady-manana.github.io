@@ -12,7 +12,8 @@ import GitHub from '@material-ui/icons/GitHub';
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import Twitter from '@material-ui/icons/Twitter';
 import Drafts from '@material-ui/icons/Drafts';
-
+import { CustomContainer } from '../../../templates';
+import { Skill } from './Skill';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -21,6 +22,8 @@ const useStyles = makeStyles((theme: Theme) =>
         visibility: 'hidden',
       },
       display: 'flex',
+      maxWidth: 850,
+      margin: 'auto',
     },
     details: {
       display: 'flex',
@@ -60,13 +63,13 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export const Presentation = () => {
+export const Top = () => {
   const classes = useStyles();
   const classes2 = ownStyle();
   //   const theme = useTheme();
 
   return (
-    <>
+    <CustomContainer className={classes2.top}>
       <Card className={classes.root} elevation={2}>
         <div className={classes.details}>
           <div style={{ textAlign: 'center' }}>
@@ -137,6 +140,7 @@ export const Presentation = () => {
           title="Mahady Manana"
         />
       </div>
-    </>
+      <Skill />
+    </CustomContainer>
   );
 };

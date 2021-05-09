@@ -1,15 +1,16 @@
-import React from "react";
-import { CustomSlider, Presentation } from "../components/main/homepage";
+import React from 'react';
+import {
+  GridOffer,
+  Presentation,
+  Top,
+} from '../components/main/homepage';
 
 export default function Home() {
-	return (
-		<div>
-			<div>
-				<CustomSlider />
-			</div>
-			<div>
-				<Presentation />
-			</div>
-		</div>
-	);
+  return (
+    <div id="homepage">
+      <Top />
+      <Presentation />
+      <GridOffer />
+    </div>
+  );
 }

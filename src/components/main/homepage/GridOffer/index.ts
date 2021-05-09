@@ -1,0 +1,1 @@
+export { GridOffer } from './GridOffer';
