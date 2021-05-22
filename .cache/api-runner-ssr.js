@@ -3,6 +3,10 @@ var plugins = [{
       plugin: require('/home/fano/Desktop/MANANA/PORTFOLIO/new-website-mahady/node_modules/gatsby-plugin-material-ui/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      name: 'gatsby-plugin-react-helmet',
+      plugin: require('/home/fano/Desktop/MANANA/PORTFOLIO/new-website-mahady/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       name: 'default-site-plugin',
       plugin: require('/home/fano/Desktop/MANANA/PORTFOLIO/new-website-mahady/gatsby-ssr'),
       options: {"plugins":[]},
