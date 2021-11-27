@@ -1,14 +1,14 @@
 var plugins = [{
       name: 'gatsby-plugin-material-ui',
-      plugin: require('/home/fano/Desktop/MANANA/PORTFOLIO/new-website-mahady/node_modules/gatsby-plugin-material-ui/gatsby-ssr'),
+      plugin: require('/home/mahady/MANANA/Portfolio/mahady-manana.github.io/node_modules/gatsby-plugin-material-ui/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/home/fano/Desktop/MANANA/PORTFOLIO/new-website-mahady/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/mahady/MANANA/Portfolio/mahady-manana.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'default-site-plugin',
-      plugin: require('/home/fano/Desktop/MANANA/PORTFOLIO/new-website-mahady/gatsby-ssr'),
+      plugin: require('/home/mahady/MANANA/Portfolio/mahady-manana.github.io/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

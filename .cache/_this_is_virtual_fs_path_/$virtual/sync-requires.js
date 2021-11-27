@@ -4,7 +4,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---src-pages-about-tsx": preferDefault(require("/home/fano/Desktop/MANANA/PORTFOLIO/new-website-mahady/src/pages/about.tsx")),
-  "component---src-pages-index-tsx": preferDefault(require("/home/fano/Desktop/MANANA/PORTFOLIO/new-website-mahady/src/pages/index.tsx"))
+  "component---src-pages-about-tsx": preferDefault(require("/home/mahady/MANANA/Portfolio/mahady-manana.github.io/src/pages/about.tsx")),
+  "component---src-pages-index-tsx": preferDefault(require("/home/mahady/MANANA/Portfolio/mahady-manana.github.io/src/pages/index.tsx"))
 }
 

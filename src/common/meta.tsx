@@ -9,6 +9,7 @@ export const Metatags = () => {
         name="description"
         content="Mahady Manana is a Javascript & Typescript & React & Nodejs Developer. Create Taylor-made website, CRM for your company, Web Application..."
       />
+      <meta name="google-site-verification" content="JeoPzwGYNNbq7o0RQKORdF4kaaQSgFXUF4xQZq8PfFY" />
       <link rel="cannonical" href="https://mahady-manana.github.io" />
       <meta name="robots" content="index, follow" />
       <meta property="og:type" content="portfolio" />
